@@ -1,0 +1,12 @@
+DailyEnergyIntent energy
+DailyEnergyIntent current energy
+DailyEnergyIntent todays energy
+DailyEnergyIntent energy du jour
+
+PowerIntent power
+PowerIntent current power
+
+YearlyEnergyIntent yearly energy
+YearlyEnergyIntent annual energy
+
+LifetimeEnergyIntent lifetime energy
