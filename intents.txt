@@ -1,0 +1,9 @@
+{
+    "intents": [
+      {"intent": "PowerIntent"},
+      {"intent": "YearlyEnergyIntent"},
+      {"intent": "LifetimeEnergyIntent"},
+      {"intent": "TerminateIntent"},
+      {"intent": "DailyEnergyIntent"}
+      ]
+}
