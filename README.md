@@ -1,5 +1,5 @@
 # alexa-solar-report
-This project is an Amazon Alexa Skill that will respond with data abot solar panels.  Initially the project accessed the SolarEdge API, but it is being adapted to hit the PVOutput API.  This is not an official Aexa Skill that runs in the cloud - you will run this on your own PC and use a tunnel fromo your PC to allow Alexa.
+This project is an Amazon Alexa Skill that will respond with data abot solar panels.  Initially the project accessed the SolarEdge API, but it is being adapted to hit the PVOutput API.  This is not an official Aexa Skill that runs in the cloud - you will run this on your own PC and use a tunnel from your PC to allow Alexa.  If someone has an idea on how to set this up permanently on a cloud server while still allowing users to keep their Site ID and API keys private then I would love to be able to get this running in that way.
 
 ## Usage
 "Alexa ask Solar Report what is my daily energy", "Alexa ask Solar Report for my current power production",
@@ -62,5 +62,7 @@ On the next screen for Endpoint click on HTTPS.  Pick your region.  In the box e
 URL from ngrok which should be the last Forwarding line.  For example if the line reads:
 'Forwarding    https://ab12cd34.ngrok.io --> localost:5000' then enter this in the box.
 Press Save or Next and you should now be working.
+
+If you keep these two processes running you will be able to access this Skill continuously.
 
 Ask Alexa for some info as in "Alexa ask Solar Report for daily energy".
