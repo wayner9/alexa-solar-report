@@ -42,7 +42,7 @@ Run the main python file by typing 'python pvout.py'.
 Assuming the python program is working you now have your file waiting for commands
 on port 5000.
 
-The next step is to setup ngrok.  Download and run the version of ngrok for your
+The next step is to setup ngrok (https://ngrok.com/).  Download and run the version of ngrok for your
 PC - on windows you will need the command 'ngrok.exe http 5000' and on Linux it is 
 './ngrok http 5000'.  You will need some info from this screen in a little while.
 
