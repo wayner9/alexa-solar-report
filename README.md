@@ -4,10 +4,11 @@ This project is an Amazon Alexa Skill that will respond with data abot solar pan
 ## Usage
 "Alexa ask Solar Report what is my daily energy", "Alexa ask Solar Report for my current power production",
 "Alexa ask Solar Report what is my annual energy", "Alexa ask Solar Report what is my lifetime energy"
+Over time I hope to add my functionality - please feel free to contribute.
 
 Requires:
 * flask_ask by John Wheeler (on GitHub);
-* various other common python modules
+* various other common python modules depending on your python install
 
 ## Notes
 The Python program pvout.py contains the intent handlers required to
