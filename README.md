@@ -1,5 +1,5 @@
 # alexa-solar-report
-This project is an Amazon Alexa Skill that will respond with data abot solar panels.  Initially the project accessed the SolarEdge API, but it is being adapted to hit the PVOutput API.
+This project is an Amazon Alexa Skill that will respond with data abot solar panels.  Initially the project accessed the SolarEdge API, but it is being adapted to hit the PVOutput API.  This is not an official Aexa Skill that runs in the cloud - you will run this on your own PC and use a tunnel fromo your PC to allow Alexa.
 
 ## Usage
 "Alexa ask Solar Report what is my daily energy", "Alexa ask Solar Report for my current power production",
@@ -21,8 +21,8 @@ I have tried this out on Windows and on a Raspberry Pi running Raspbian- Jessie.
 The following need to be entered as into the code because they contain private 
 information:
 * line 22 - enter your site ID;
-* line 23 - enter your PVOutput API key (make sure that you use your PVOuput rather than
-your inverter API);
+* line 23 - enter your PVOutput API key (make sure that you use your PVOuput which is on your settings page (https://pvoutput.org/account.jsp) not the API for Weather or your Inverter.
+
 
 ## Key Files in this repository
 Here are the most important files and what they do:
