@@ -4,7 +4,11 @@ This project is an Amazon Alexa Skill that will respond with data abot solar pan
 ## Usage
 "Alexa ask Solar Report what is my daily energy", "Alexa ask Solar Report for my current power production",
 "Alexa ask Solar Report what is my annual energy", "Alexa ask Solar Report what is my lifetime energy"
-Over time I hope to add my functionality - please feel free to contribute.
+Over time I hope to add my functionality - please feel free to contribute. Note that I only use PVOutput
+for generation data due to the configuration of my panels.  My soalr generation system is totally separate
+from my power usage - where I live it makes financial sense to sell 100% of what you produce back to your
+utility.  Note that my inverter is SolarEdge but that shouldn't matter as this Alexa Skill is solely interfacing
+with PVOutput for the data.
 
 Requires:
 * flask_ask by John Wheeler (on GitHub);
