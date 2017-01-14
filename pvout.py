@@ -19,8 +19,8 @@ logger.setLevel(logging.DEBUG)
 #logger.addHandler(fh)
 
 url_prefix='http://pvoutput.org/service/r2/'
-site_id='12345'
-api_key='asdfsaf349798237asdfsdf'
+site_id='12345'  #enter your own site ID here
+api_key='1234567890abacdef1232347adfbc'  #enter your own api key here
 
 def solar_info(fieldnum,div,deci):
 	command="getstatus.jsp?"
