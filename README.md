@@ -1,6 +1,10 @@
 # alexa-solar-report
 This project is an Amazon Alexa Skill that will respond with data abot solar panels.  Initially the project accessed the SolarEdge API, but it is being adapted to hit the PVOutput API.
 
+## Usage
+"Alexa ask Solar Report what is my daily energy", "Alexa ask Solar Report for my current power production",
+"Alexa ask Solar Report what is my annual energy", "Alexa ask Solar Report what is my lifetime energy"
+
 Requires:
 * flask_ask by John Wheeler (on GitHub);
 * various other common python modules
@@ -34,8 +38,9 @@ Sign up for an Amazon Developer Account - you can likely use your existing Amazo
 
 Download all of the files from this repository and place them in a folder you create on your PC.
 I am assuming that you are using a folder called solarrep but that doesn't really matter.
-You may have to download and install the following python packages:  flask, flask-ask.  That is
-done by typing 'pip install flask' or whatever.
+You may have to download and install the following python package:  flask-ask.  That is
+done by typing 'pip install flask-ask' or whatever.  You may have to install other python packages
+if you get errors - such as logging, datetime or requests. 
 
 Run the main python file by typing 'python pvout.py'.
 
